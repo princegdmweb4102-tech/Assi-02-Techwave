@@ -25,7 +25,129 @@
 
 }
 
+.menubar{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
 
+.navlink{
+    display: flex;
+}
 
+.navlink li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navlink li a{
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.topbutton{
+    width: 135px;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: red; 
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
 
 /* header section css end*/
+
+/* Banner section css start*/
+
+.banner{
+    width: 1600px;
+    height: 760px;
+    background-image:url(./assets/hero-bg.png);
+}
+.bannerinformation{
+    width: 550px;
+    height: 558px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bann-info-imag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-img2{
+    margin-top: -250px;
+    margin-bottom: 100px;
+}
+
+.bannerinformation h1{
+    font-size: 5rem;
+    color: #FFFFFF;
+}
+
+.bannerinformation p{
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.banner-bt1{
+    width: 200px;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 20px;
+    background-color: red; 
+    background-image: linear-gradient(to bottom right, rgb(143, 64, 247), yellow);
+}
+
+.banner-bt2{
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #00FF88;
+    margin-top: 20px;
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #00FF88;
+}
+/* Banner section css end*/
+
+
+/* responsive css start*/
+
+@media screen and (max-width: 576px){
+
+    .navlink{
+        width: 20px;
+        height: 20px;
+        background-color: #00FF88;
+    }
+
+    .menubar{
+        margin-left: 30px;
+    }
+
+    .banner{
+        width: 100vp;
+    }
+    
+}
+
+
+
+
+/* responsive css end*/
