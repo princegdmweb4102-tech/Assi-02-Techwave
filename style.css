@@ -1,0 +1,31 @@
+/* This is common css start*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* This is common css end*/
+
+
+/* header section css start*/
+
+.navebar{
+    width: 1600px;
+    height: 92px;
+    background-color: #1A0B2E;
+
+}
+
+
+
+
+/* header section css end*/
