@@ -261,6 +261,200 @@
 
 
 
+/* About the TechWave section css start */
+
+
+.TechWave{
+    width: 100%;
+     height: 1121px;
+    background-color: #230E3D;
+}
+
+.heading-tech{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.heading-tech h1{
+    font-size: 3erm;
+    color: #FFFFFF;
+}
+
+.grid-tech{
+    width: 1200px;
+    height: 783px;
+    margin: auto;
+}
+
+
+.grid-maine-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 225px);
+    gap: 20px;
+
+}
+
+.Premium-Audio{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #351165;
+    border-radius: 20px;
+}
+
+.Mobile-Friendly{
+
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #351165;
+     border-radius: 20px;
+
+}
+
+.Global-Community{
+     grid-column: span 2;
+    grid-row: span 1;
+    background-color: #351165;
+     border-radius: 20px;
+
+}
+
+.Exclusive-Interviews{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: #351165;
+     border-radius: 20px;
+
+}
+
+.Rich-Resources{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #351165;
+     border-radius: 20px;
+}
+
+.Premium-Audio .img_tag{
+    margin-top: 107px;
+    margin-left: 40px;
+}
+
+.Premium-Audio h3{
+    font-size: 1.5erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.Premium-Audio p{
+    font-size: 1erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.Mobile-Friendly .img_tag{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.Mobile-Friendly h3{
+    font-size: 1.5erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.Mobile-Friendly p{
+    font-size: 1erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.Global-Community .img_tag{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.Global-Community h3{
+    font-size: 1.5erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.Global-Community p{
+    font-size: 1erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.Exclusive-Interviews{
+    height: 273px;
+}
+
+.Exclusive-Interviews .img_tag{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.Exclusive-Interviews h3{
+    font-size: 1.5erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.Exclusive-Interviews p{
+    font-size: 1erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.Rich-Resources{
+    height: 273px;
+}
+
+.Rich-Resources .img_tag{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.Rich-Resources h3{
+    font-size: 1.5erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+
+.Rich-Resources p{
+    font-size: 1erm;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+/* About the TechWave section css end */
+
 
 /* responsive css start*/
 
