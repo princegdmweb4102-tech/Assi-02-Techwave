@@ -19,7 +19,7 @@
 /* header section css start*/
 
 .navebar{
-    width: 1600px;
+    width: 100%;
     height: 92px;
     background-color: #1A0B2E;
 
@@ -65,8 +65,12 @@
 /* Banner section css start*/
 
 .banner{
-    width: 1600px;
+    width: 100%;
     height: 760px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    position: relative;
     background-image:url(./assets/hero-bg.png);
 }
 .bannerinformation{
@@ -96,10 +100,21 @@
     color: #FFFFFF;
 }
 
+
 .bannerinformation p{
     font-size: 1rem;
     margin-top: 20px;
     color: #FFFFFF;
+}
+
+.badge{
+    position: absolute;
+    margin-left: 160px;
+  background: #00FF88;
+  color: #000;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 .banner-bt1{
@@ -127,6 +142,126 @@
 /* Banner section css end*/
 
 
+/* About the Podcast section css start */
+
+.prodect-section{
+    width: 100%;
+    height: 646px;
+    background-color: #1A0B2E;
+}
+
+.about{
+    width: 1200px;
+    height: 222px;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.about h1{
+    font-size: 3rem;
+}
+
+.about p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.stats{
+     width: 1200px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    background-color: transparent;
+    margin: auto;
+}
+
+.stats-car1{
+    width: 200px;
+    height: 94px;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.stats-car1 h4{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00FF88;
+}
+
+.stats-car1 p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.stats-car2{
+    width: 200px;
+    height: 94px;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.stats-car2 h4{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00FF88;
+}
+
+.stats-car2 p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.stats-car3{
+    width: 200px;
+    height: 94px;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.stats-car3 h4{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00FF88;
+}
+
+.stats-car3 p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.stats-car4{
+    width: 200px;
+    height: 94px;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.stats-car4 h4{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #00FF88;
+}
+
+.stats-car4 p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+
+/* About the Podcast section css end */
+
+
+
+
+
 /* responsive css start*/
 
 @media screen and (max-width: 576px){
@@ -134,8 +269,17 @@
     .navlink{
         width: 20px;
         height: 20px;
-        background-color: #00FF88;
+        margin-right: 180px;
+        background-image: url(./assets/hamburger-menu.png);
     }
+
+    .navlink li a{
+       display: none;        
+    }
+
+  .topbutton{
+    display: none;
+  }
 
     .menubar{
         margin-left: 30px;
