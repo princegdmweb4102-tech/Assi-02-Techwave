@@ -447,13 +447,141 @@
 
 
 
-
-
-
-
-
-
 /* About the TechWave section css end */
+
+
+
+/* Featuer-Episodes section css start */
+
+
+.Featuer-Episodes-section{
+    width: 100%;
+    height: 1276px;
+    background-color: #1A0B2E;
+}
+
+.Featuer-Episodes{
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.Featuer-Episodes h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.all_video_card{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Video_card1{
+    width: 380PX;
+    height: 440PX;
+    border-radius: 20px;
+    background-color: #250D44;
+}
+
+.Video_card1 h4{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 24px;
+}
+
+.Video_card1 p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.card-img{
+    margin-top: 10px;
+    margin-left: 24px;
+}
+.Video_card1 span{
+     font-size: .9rem;
+    color: greenyellow;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.Video_card2{
+    width: 380PX;
+    height: 440PX;
+    border-radius: 20px;
+    background-color: #250D44;
+}
+
+.Video_card2 h4{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 24px;
+}
+
+.Video_card2 p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.card-img{
+    margin-top: 10px;
+    margin-left: 24px;
+}
+.Video_card2 span{
+     font-size: .9rem;
+    color: greenyellow;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Video_card3{
+    width: 380PX;
+    height: 440PX;
+    border-radius: 20px;
+    background-color: #250D44;
+}
+
+.Video_card3 h4{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 24px;
+}
+
+.Video_card3 p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.card-img{
+    margin-top: 10px;
+    margin-left: 24px;
+}
+.Video_card3 span{
+     font-size: .9rem;
+    color: greenyellow;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+/* Featuer-Episodes section css end */
 
 
 /* responsive css start*/
