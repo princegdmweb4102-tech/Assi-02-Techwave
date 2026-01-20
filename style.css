@@ -621,15 +621,47 @@
 
 .Meet-the-Host-icon{
     width: 150px;
-    height: 30px;
     margin-left: 40px;
-    margin-top: 10px;
-    background-color: #00FF88;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
 /* Featuer-Episodes section css end */
 
+
+
+/* Footer section css start */
+
+.Footer-section{
+    width: 100%;
+    height: 412px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-image:url(./assets/footer-bg.png);
+}
+
+.Footer-section-text{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    padding-top: 120px;
+    text-align: center;
+
+}
+
+.Footer-section-logo{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+
+}
+
+/* Footer section css end */
 
 /* responsive css start*/
 
