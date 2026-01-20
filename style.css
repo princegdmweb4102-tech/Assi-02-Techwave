@@ -663,36 +663,182 @@
 
 /* Footer section css end */
 
+
+
 /* responsive css start*/
 
-@media screen and (max-width: 576px){
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    .navlink{
-        width: 20px;
-        height: 20px;
-        margin-right: 180px;
-        background-image: url(./assets/hamburger-menu.png);
-    }
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.6;
+}
 
-    .navlink li a{
-       display: none;        
-    }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  .topbutton{
-    display: none;
+/* ===== Container ===== */
+.navebar,
+.banner,
+.prodect-section,
+.TechWave,
+.Featuer-Episodes-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* === NavBar ==== */
+
+.menubar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navlink {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navlink {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
   }
 
-    .menubar{
-        margin-left: 30px;
-    }
+  .topbutton {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 
-    .banner{
-        width: 100vp;
-    }
-    
+/* === Banner Selection === */
+
+.bannerinformation {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.buttonsection {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* About + Stats Section */
+
+.prodect-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* Stats cards */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .prodect-section {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
 }
 
 
+/* Why Choose TechWave (Grid Responsive) */ 
+.grid-maine-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
 
+/* Tablet */
+@media (max-width: 992px) {
+  .grid-maine-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .grid-maine-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.all_video_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Make iframe responsive */
+.all_video_card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .all_video_card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .all_video_card {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Meet-the-Host-information {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .Meet-the-Host-information {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 /* responsive css end*/
