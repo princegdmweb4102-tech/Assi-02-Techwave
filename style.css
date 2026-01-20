@@ -580,6 +580,8 @@
     margin-left: 5px;
 }
 
+/* Meet the host section */
+
 .Meet-the-Host{
     width: 1200px;
     height: 300px;
@@ -667,178 +669,189 @@
 
 /* responsive css start*/
 
-/* ===== Global Reset ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ============================= */
+/* Responsive CSS (≤ 576px) */
+/* ============================= */
 
-body {
-  font-family: Inter, sans-serif;
-  line-height: 1.6;
-}
+@media screen and (max-width: 576px) {
+.navlink{
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+        background-image: url(./assets/hamburger-menu.png);
+    }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+    .navlink li a{
+       display: none;        
+    }
 
-/* ===== Container ===== */
-.navebar,
-.banner,
-.prodect-section,
-.TechWave,
-.Featuer-Episodes-section {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-/* === NavBar ==== */
-
-.menubar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.navlink {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-.navlink a {
-  text-decoration: none;
-  color: #000;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .navlink {
-    width: 100%;
-    justify-content: center;
-    margin-top: 15px;
+  .topbutton{
+    display: none;
   }
 
-  .topbutton {
+    .menubar{
+        margin-left: 20px;
+  
+}
+
+  .banner {
     width: 100%;
-    margin-top: 10px;
+    height: auto;
+    padding-bottom: 60px;
   }
+
+  
+
+  .prodect-section{
+    width: 100%;
+    height: auto;
+    background-color: #1A0B2E;
 }
 
-/* === Banner Selection === */
+.about {
+    width: 100%;
+  }
 
-.bannerinformation {
-  text-align: center;
-  padding: 40px 20px;
-}
+  .about h1 {
+    font-size: 2rem;
+  }
 
-.buttonsection {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-/* About + Stats Section */
-
-.prodect-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-/* Stats cards */
-.stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  text-align: center;
-}
-
-/* Tablet */
-@media (max-width: 992px) {
-  .prodect-section {
-    grid-template-columns: 1fr;
+  .about p {
+    font-size: 0.9rem;
   }
 
   .stats {
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 200px;
+    display: flex;
+     flex-wrap: wrap;
+  
   }
-}
 
-/* Mobile */
-@media (max-width: 576px) {
-  .stats {
-    grid-template-columns: 1fr;
+    /* ---------- WHY TECHWAVE GRID ---------- */
+
+     .TechWave {
+    height: auto;
+    padding-bottom: 60px;
   }
-}
 
+  .heading-tech {
+    width: 100%;
+    padding-top: 60px;
+  }
 
-/* Why Choose TechWave (Grid Responsive) */ 
-.grid-maine-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  text-align: center;
-}
+  .heading-tech h1 {
+    font-size: 2rem;
+  }
 
-/* Tablet */
-@media (max-width: 992px) {
+  .grid-tech {
+    width: 100%;
+    padding: 0 15px;
+  }
+
   .grid-maine-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-  .grid-maine-container {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
-}
 
-.all_video_card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
+  .Premium-Audio,
+  .Mobile-Friendly,
+  .Global-Community,
+  .Exclusive-Interviews,
+  .Rich-Resources {
+    width: 540px;
+    grid-column: span 1;
+    grid-row: span 1;
+  }
 
-/* Make iframe responsive */
-.all_video_card iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  height: auto;
-}
+  .grid-tech{
+    height: 1400px;
+  }
 
-/* Tablet */
-@media (max-width: 992px) {
+  /* ---------- FEATURED EPISODES ---------- */
+  
+  .Featuer-Episodes-section {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .Featuer-Episodes {
+    width: 100%;
+  }
+
+  .Featuer-Episodes h1 {
+    font-size: 2rem;
+  }
+
   .all_video_card {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile */
-@media (max-width: 576px) {
-  .all_video_card {
-    grid-template-columns: 1fr;
-  }
-}
-
-.Meet-the-Host-information {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .Meet-the-Host-information {
     flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .Video_card1,
+  .Video_card2,
+  .Video_card3 {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+
+  .Featuer-Episodes-section{
+    height: 2200px;
+  }
+
+  /* ---------- MEET THE HOST ---------- */
+  .Meet-the-Host {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 1300px;
+  }
+
+  .Meet-the-Host-information {
+    width: 500px;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
     text-align: center;
   }
+
+  .Meet-info-text h2,
+  .Meet-info-text p {
+    margin-left: 0;
+  }
+
+  .Meet-the-Host-icon{
+    width: 380px;
+    margin-right: 80px;
+       display: flex;
+
+  }
+
+  /* ---------- FOOTER ---------- */
+  .Footer-section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 60px;
+    align-items: center;
+  }
+.Footer-section-text {
+    width: 100%;
+    align-items: center;
 }
+  
+
+
+
+}
+
 
 /* responsive css end*/
